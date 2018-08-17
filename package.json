@@ -1,0 +1,25 @@
+{
+  "name": "lightplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnook/LightPlayground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devnook/LightPlayground/issues"
+  },
+  "homepage": "https://github.com/devnook/LightPlayground#readme",
+  "devDependencies": {
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
+  },
+  "scripts": {
+    "lh": "lighthouse-ci"
+  }
+}
