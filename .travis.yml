@@ -2,4 +2,4 @@ language: node_js
 install:
   - npm install # make sure to install the deps when Travis runs.
 after_success:
-  - npm run lh -- https://devnook.github.com/LightPlayground
+  - npm run lh -- --score=100  https://devnook.github.com/LightPlayground
