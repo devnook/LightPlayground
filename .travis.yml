@@ -8,5 +8,5 @@ deploy:
   keep-history: true
   on:
     branch: gh-pages
-after_DEPLOY:
+after_deploy:
   - npm run lh -- https://devnook.github.com/LightPlayground
