@@ -1,12 +1,5 @@
 language: node_js
 install:
   - npm install # make sure to install the deps when Travis runs.
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: gh-pages
-after_deploy:
+after_success:
   - npm run lh -- https://devnook.github.com/LightPlayground
