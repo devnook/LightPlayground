@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lh": "lighthouse-ci",
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,5 @@
   "homepage": "https://github.com/devnook/LightPlayground#readme",
   "devDependencies": {
     "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
-  },
-  "scripts": {
-    "lh": "lighthouse-ci"
   }
 }
